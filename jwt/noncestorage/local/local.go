@@ -19,9 +19,9 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/coreos/jwtproxy/config"
-	"github.com/coreos/jwtproxy/jwt/noncestorage"
-	"github.com/coreos/jwtproxy/stop"
+	"github.com/davidwalter0/jwtproxy/config"
+	"github.com/davidwalter0/jwtproxy/jwt/noncestorage"
+	"github.com/davidwalter0/jwtproxy/stop"
 	"github.com/patrickmn/go-cache"
 )
 

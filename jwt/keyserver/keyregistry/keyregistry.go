@@ -28,14 +28,14 @@ import (
 	"time"
 
 	log "github.com/Sirupsen/logrus"
-	"github.com/coreos/go-oidc/key"
+	"github.com/davidwalter0/go-oidc/key"
 	"github.com/gregjones/httpcache"
 	"gopkg.in/yaml.v2"
 
-	"github.com/coreos/jwtproxy/config"
-	"github.com/coreos/jwtproxy/jwt"
-	"github.com/coreos/jwtproxy/jwt/keyserver"
-	"github.com/coreos/jwtproxy/jwt/keyserver/keyregistry/keycache"
+	"github.com/davidwalter0/jwtproxy/config"
+	"github.com/davidwalter0/jwtproxy/jwt"
+	"github.com/davidwalter0/jwtproxy/jwt/keyserver"
+	"github.com/davidwalter0/jwtproxy/jwt/keyserver/keyregistry/keycache"
 )
 
 func init() {

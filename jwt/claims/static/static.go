@@ -20,11 +20,11 @@ import (
 	"reflect"
 
 	log "github.com/Sirupsen/logrus"
-	"github.com/coreos/go-oidc/jose"
+	"github.com/davidwalter0/go-oidc/jose"
 
-	"github.com/coreos/jwtproxy/config"
-	"github.com/coreos/jwtproxy/jwt/claims"
-	"github.com/coreos/jwtproxy/stop"
+	"github.com/davidwalter0/jwtproxy/config"
+	"github.com/davidwalter0/jwtproxy/jwt/claims"
+	"github.com/davidwalter0/jwtproxy/stop"
 )
 
 func init() {

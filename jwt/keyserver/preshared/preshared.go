@@ -23,13 +23,13 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/coreos/go-oidc/jose"
-	"github.com/coreos/go-oidc/key"
+	"github.com/davidwalter0/go-oidc/jose"
+	"github.com/davidwalter0/go-oidc/key"
 	"gopkg.in/yaml.v2"
 
-	"github.com/coreos/jwtproxy/config"
-	"github.com/coreos/jwtproxy/jwt/keyserver"
-	"github.com/coreos/jwtproxy/stop"
+	"github.com/davidwalter0/jwtproxy/config"
+	"github.com/davidwalter0/jwtproxy/jwt/keyserver"
+	"github.com/davidwalter0/jwtproxy/stop"
 )
 
 func init() {
