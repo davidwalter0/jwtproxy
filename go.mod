@@ -1,19 +1,20 @@
-module github.com/coreos/jwtproxy
+module github.com/davidwalter0/jwtproxy
 
 require (
-	github.com/Sirupsen/logrus v0.0.0-20160317141110-4b6ea7319e21
-	github.com/coreos/go-oidc v0.0.0-20160330172125-f427f54ef96b
-	github.com/coreos/go-systemd v0.0.0-20160202211425-7b2428fec400
-	github.com/coreos/goproxy v0.0.0-20160613160713-d49035e9433e
-	github.com/coreos/pkg v0.0.0-20160314094717-1914e367e85e
-	github.com/gregjones/httpcache v0.0.0-20160313132734-4b02602f71f4
-	github.com/jonboulle/clockwork v0.0.0-20151121001658-ed104f61ea48
-	github.com/patrickmn/go-cache v0.0.0-20160127170004-1881a9bccb81
-	github.com/pmezard/go-difflib v0.0.0-20160110105554-792786c7400a
-	github.com/stretchr/testify v0.0.0-20160418225827-c5d7a69bf8a2
-	github.com/tylerb/graceful v0.0.0-20160320213505-9a3d4236b03b
-	golang.org/x/net v0.0.0-20160403195514-024ed629fd29
-	golang.org/x/sys v0.0.0-20160402023915-a60af9cbbc6a
-	gopkg.in/square/go-jose.v2 v2.0.0-20160419061419-77e6c51d4de6
-	gopkg.in/yaml.v2 v2.0.0-20160301204022-a83829b6f129
+	github.com/Sirupsen/logrus v1.0.5
+	github.com/coreos/go-oidc v0.0.0-20180417202737-1180514eaf4d
+	github.com/coreos/go-systemd v0.0.0-20180409111510-d1b7d058aa2a
+	github.com/coreos/goproxy v0.0.0-20170222233530-25fe2597a3d1
+	github.com/davidwalter0/go-oidc v0.0.0-20180511032905-1eac7f9d3831
+	github.com/davidwalter0/goproxy v0.0.0-20170222233530-25fe2597a3d1
+	github.com/gregjones/httpcache v0.0.0-20180305231024-9cad4c3443a7
+	github.com/patrickmn/go-cache v1.0.0
+	github.com/stretchr/objx v0.0.0-20180426105006-a5cfa15c000a
+	github.com/tylerb/graceful v1.2.15
+	golang.org/x/crypto v0.0.0-20180509205747-2d027ae1dddd
+	golang.org/x/net v0.0.0-20180509002218-f73e4c9ed3b7
+	golang.org/x/sys v0.0.0-20180510032850-7dfd1290c791
+	gopkg.in/check.v1 v1.0.0-20161208181325-20d25e280405
+	gopkg.in/square/go-jose.v2 v2.1.6
+	gopkg.in/yaml.v2 v2.2.1
 )
