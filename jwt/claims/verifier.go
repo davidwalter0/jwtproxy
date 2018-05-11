@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/coreos/go-oidc/jose"
+	"github.com/davidwalter0/go-oidc/jose"
 
-	"github.com/coreos/jwtproxy/config"
-	"github.com/coreos/jwtproxy/stop"
+	"github.com/davidwalter0/jwtproxy/config"
+	"github.com/davidwalter0/jwtproxy/stop"
 )
 
 type Constructor func(config.RegistrableComponentConfig) (Verifier, error)

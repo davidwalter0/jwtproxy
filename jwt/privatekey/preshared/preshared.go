@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/coreos/go-oidc/key"
+	"github.com/davidwalter0/go-oidc/key"
 	"gopkg.in/yaml.v2"
 
-	"github.com/coreos/jwtproxy/config"
-	"github.com/coreos/jwtproxy/jwt/privatekey"
-	"github.com/coreos/jwtproxy/stop"
+	"github.com/davidwalter0/jwtproxy/config"
+	"github.com/davidwalter0/jwtproxy/jwt/privatekey"
+	"github.com/davidwalter0/jwtproxy/stop"
 )
 
 func init() {

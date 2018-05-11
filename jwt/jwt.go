@@ -23,13 +23,13 @@ import (
 	"time"
 
 	log "github.com/Sirupsen/logrus"
-	"github.com/coreos/go-oidc/jose"
-	"github.com/coreos/go-oidc/key"
-	"github.com/coreos/go-oidc/oidc"
+	"github.com/davidwalter0/go-oidc/jose"
+	"github.com/davidwalter0/go-oidc/key"
+	"github.com/davidwalter0/go-oidc/oidc"
 
-	"github.com/coreos/jwtproxy/config"
-	"github.com/coreos/jwtproxy/jwt/keyserver"
-	"github.com/coreos/jwtproxy/jwt/noncestorage"
+	"github.com/davidwalter0/jwtproxy/config"
+	"github.com/davidwalter0/jwtproxy/jwt/keyserver"
+	"github.com/davidwalter0/jwtproxy/jwt/noncestorage"
 )
 
 const (
